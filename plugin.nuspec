@@ -7,11 +7,11 @@
     <authors>User Community</authors>
     <owners>CAST</owners>
     <licenseUrl>https://extend.castsoftware.com/V2/Licenses/Cast-Licence-Labs-1.0.html</licenseUrl>
-    <projectUrl>https://github.com/kragg77/com.castsoftware.uc.endevor-extractor</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/kragg77/com.castsoftware.uc.endevor-extractor/master/endevor-extractor.png</iconUrl>
+    <projectUrl>https://github.com/CAST-Extend/com.castsoftware.uc.endevor-extractor</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/CAST-Extend/com.castsoftware.uc.endevor-extractor/master/endevor-extractor.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Extract sources from Endevor using their REST API</description>
-    <releaseNotes>https://github.com/kragg77/com.castsoftware.uc.endevor-extractor/wiki</releaseNotes>
+    <releaseNotes>https://github.com/CAST-Extend/com.castsoftware.uc.endevor-extractor/wiki</releaseNotes>
     <dependencies>
       <dependency id="CAIP" version="7.3.6" />
     </dependencies>
