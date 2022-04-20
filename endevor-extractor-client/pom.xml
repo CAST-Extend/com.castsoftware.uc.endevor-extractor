@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.castsoftware.endevor</groupId>
+    <artifactId>endevor-extractor</artifactId>
+    <name>endevor-extractor</name>
+
+    <packaging>jar</packaging>
+    <version>1.1.1</version>
+    
+    <organization>
+        <!-- Used as the 'Vendor' for JNLP generation -->
+        <name>CAST Software</name>
+    </organization>
+
+    <properties>
+        <log4j.version>1.2.17</log4j.version>
+        <jersey.version>2.26</jersey.version>
+        <gson.version>2.8.2</gson.version>
+    </properties>
+
+    <build>
+
+        <finalName>endevor-extractor</finalName>
+
+        <plugins>
+
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>8.8.3</version>
+                <configuration>
+
+                    <mainClass>com.castsoftware.endevor.client.MainApp</mainClass>
+
+                    <!-- only required if signing the jar file -->
+                    <keyStoreAlias>example-user</keyStoreAlias>
+                    <keyStorePassword>example-password</keyStorePassword>
+                    <allPermissions>true</allPermissions>
+
+                </configuration>
+            </plugin>
+			<plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-compiler-plugin</artifactId>
+		        <version>3.2</version>
+		        <configuration>
+		          <source>1.8</source>
+		          <target>1.8</target>
+		        </configuration>
+		    </plugin>
+		    
+		    <plugin>
+		    	<artifactId>maven-assembly-plugin</artifactId>
+		        <executions>
+		            <execution>
+		                <id>create-executable</id>
+		                <phase>package</phase>
+		                <goals>
+		                    <goal>single</goal>
+		                </goals>
+		            </execution>
+		        </executions>
+		        <configuration>
+		            <outputDirectory>${test.pack.dir}</outputDirectory>
+		            <appendAssemblyId>false</appendAssemblyId>
+		            <descriptorRefs>
+		                <descriptorRef>jar-with-dependencies</descriptorRef>
+		            </descriptorRefs>
+		            <archive>
+		                <manifest>
+		                    <mainClass>com.castsoftware.endevor.client.MainApp</mainClass>
+		                </manifest>
+		            </archive>
+		        </configuration> 
+		    </plugin> 
+        </plugins>
+    </build>
+
+
+    <dependencies>
+		<dependency>
+		    <groupId>org.glassfish.jersey.core</groupId>
+		    <artifactId>jersey-client</artifactId>
+		    <version>${jersey.version}</version>
+		</dependency>
+	 	<dependency>
+	        <groupId>org.glassfish.jersey.inject</groupId>
+	        <artifactId>jersey-hk2</artifactId>
+	        <version>${jersey.version}</version>
+	    </dependency>
+		<dependency>
+		    <groupId>com.google.code.gson</groupId>
+		    <artifactId>gson</artifactId>
+		    <version>${gson.version}</version>
+		</dependency>
+        <!-- Logging  -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

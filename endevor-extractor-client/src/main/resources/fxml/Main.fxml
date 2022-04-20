@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="240.0" prefWidth="380.0" stylesheets="/styles/styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.castsoftware.endevor.client.controllers.MainController">
+   <children>
+      <HBox fx:id="hbSteps" spacing="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="lConnection" onMouseClicked="#goToConnection" styleClass="unselected-step" text="Connection" />
+            <Label styleClass="unselected-step" text="/" />
+            <Label fx:id="lSelection" onMouseClicked="#onConnectAction" styleClass="unselected-step" text="Selection" />
+            <Label styleClass="unselected-step" text="/" />
+            <Label fx:id="lAction" onMouseClicked="#goToAction" styleClass="unselected-step" text="Action" />
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+      <AnchorPane fx:id="apSliding" layoutY="30.0" translateX="-380.0">
+         <children>
+            <AnchorPane prefHeight="255.0" prefWidth="380.0">
+               <children>
+                  <GridPane AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+                        <ColumnConstraints hgrow="NEVER" minWidth="10.0" />
+                        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="70.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <TextField fx:id="tfUrl" prefWidth="300.0" promptText="Url" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+                        <Label text="Url: " GridPane.halignment="RIGHT" />
+                        <Label text="Login: " GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                        <Label text="Password: " GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <TextField fx:id="tfLogin" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <PasswordField fx:id="pfPassword" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                     </children>
+                  </GridPane>
+                  <Button fx:id="bConnect" layoutX="356.0" layoutY="176.0" mnemonicParsing="false" onAction="#onConnectAction" text="Connect" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane onMouseClicked="#onPanelDoubleClick" prefHeight="255.0" prefWidth="380.0" translateX="380.0">
+               <children>
+                  <GridPane AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="90.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Environment: " GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+                        <ComboBox fx:id="cbEnv" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="Stage: " GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+                        <Label text="Systems: " GridPane.halignment="RIGHT" GridPane.rowIndex="3" />
+                        <ComboBox fx:id="cbSys" prefWidth="280.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label text="Sub-Systems: " GridPane.halignment="RIGHT" GridPane.rowIndex="4" />
+                        <ComboBox fx:id="cbSubSys" prefWidth="280.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label text="Type: " GridPane.halignment="RIGHT" GridPane.rowIndex="5" />
+                        <ComboBox fx:id="cbType" prefWidth="280.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <Label text="Instances: " GridPane.halignment="RIGHT" />
+                        <ComboBox fx:id="cbInstances" prefWidth="280.0" GridPane.columnIndex="1" />
+                        <ComboBox fx:id="cbStg" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="Filter: " GridPane.halignment="RIGHT" GridPane.rowIndex="6" />
+                        <TextField fx:id="tfFilter" promptText="Filter elements by name (Wildcard is *)" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                     </children>
+                  </GridPane>
+                  <Button fx:id="bNext" layoutX="187.0" layoutY="199.0" mnemonicParsing="false" onAction="#goToAction" prefWidth="60.0" text="Next" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="255.0" prefWidth="380.0" translateX="760.0">
+               <children>
+                  <Button fx:id="bGenerateBatch" mnemonicParsing="false" onAction="#onGenerateBatch" prefWidth="100.0" text="Generate Batch" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="10.0" />
+                  <Button fx:id="bExtractAll" mnemonicParsing="false" onAction="#onExtractAll" prefWidth="100.0" text="Extract All" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="10.0" />
+                  <TextArea fx:id="taContent" editable="false" layoutX="14.0" layoutY="13.0" prefHeight="200.0" prefWidth="200.0" text="Content to be extracted:" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="0.0" />
+                  <ProgressBar fx:id="progressBar" layoutX="14.0" layoutY="159.0" prefHeight="19.0" progress="0.0" visible="false" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="120.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

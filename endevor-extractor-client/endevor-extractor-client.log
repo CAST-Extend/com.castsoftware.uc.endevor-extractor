@@ -1,0 +1,252 @@
+04 Jun 2018 11:45:21,466 35410 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:21,467 35411 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBCOPY/ele/FINAPC02
+04 Jun 2018 11:45:21,468 35412 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:21,468 35412 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:21,468 35412 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:21,469 35413 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBCOPY/ele/FINARC02
+04 Jun 2018 11:45:21,470 35414 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:21,467 35411 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:21,471 35415 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBCOPY/ele/FINARC01
+04 Jun 2018 11:45:21,471 35415 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:21,471 35415 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:21,470 35414 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:21,469 35413 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:21,472 35416 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBCOPY/ele/FINAPC01
+04 Jun 2018 11:45:21,472 35416 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:21,472 35416 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:21,468 35412 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:21,473 35417 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FAPCOB01
+04 Jun 2018 11:45:21,473 35417 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:21,473 35417 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:25,007 38951 [pool-2-thread-3] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBCOPY FINARC01
+04 Jun 2018 11:45:25,011 38955 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:25,012 38956 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FINARP02
+04 Jun 2018 11:45:25,012 38956 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:25,012 38956 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:25,021 38965 [pool-2-thread-2] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBCOPY FINAPC02
+04 Jun 2018 11:45:25,025 38969 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:25,025 38969 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FINARP03
+04 Jun 2018 11:45:25,025 38969 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:25,025 38969 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:25,600 39544 [pool-2-thread-1] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBCOPY FINAPC01
+04 Jun 2018 11:45:25,604 39548 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:25,605 39549 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FINARS01
+04 Jun 2018 11:45:25,605 39549 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:25,605 39549 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:25,622 39566 [pool-2-thread-5] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FAPCOB01
+04 Jun 2018 11:45:25,629 39573 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:25,629 39573 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FINARS02
+04 Jun 2018 11:45:25,629 39573 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:25,629 39573 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:25,826 39770 [pool-2-thread-4] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBCOPY FINARC02
+04 Jun 2018 11:45:25,829 39773 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:25,829 39773 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FINARS03
+04 Jun 2018 11:45:25,830 39774 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:25,830 39774 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:27,346 41290 [pool-2-thread-2] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FINARP03
+04 Jun 2018 11:45:27,350 41294 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:27,351 41295 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/COBOL/ele/FINARS04
+04 Jun 2018 11:45:27,351 41295 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:27,351 41295 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:27,594 41538 [pool-2-thread-3] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FINARP02
+04 Jun 2018 11:45:27,600 41544 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:27,600 41544 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/JAVA/ele/FEZHXVI0
+04 Jun 2018 11:45:27,600 41544 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:27,600 41544 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:27,995 41939 [pool-2-thread-1] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FINARS01
+04 Jun 2018 11:45:27,999 41943 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:28,000 41944 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/SANDBOX/ele/HOTFIX
+04 Jun 2018 11:45:28,000 41944 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:28,000 41944 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:28,120 42064 [pool-2-thread-5] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FINARS02
+04 Jun 2018 11:45:28,124 42068 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:28,124 42068 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTPAY/type/SANDBOX/ele/RICKBOX1
+04 Jun 2018 11:45:28,124 42068 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:28,124 42068 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:28,406 42350 [pool-2-thread-4] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FINARS03
+04 Jun 2018 11:45:28,410 42354 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:28,410 42354 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/CCIDRPT1
+04 Jun 2018 11:45:28,411 42355 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:28,411 42355 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:29,857 43801 [pool-2-thread-2] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL FINARS04
+04 Jun 2018 11:45:29,861 43805 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:29,861 43805 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/FARCOB01
+04 Jun 2018 11:45:29,861 43805 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:29,861 43805 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:30,593 44537 [pool-2-thread-1] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed SANDBOX HOTFIX
+04 Jun 2018 11:45:30,595 44539 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:30,595 44539 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/FINARP01
+04 Jun 2018 11:45:30,596 44540 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:30,596 44540 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:30,699 44643 [pool-2-thread-3] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed JAVA FEZHXVI0
+04 Jun 2018 11:45:30,707 44651 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:30,707 44651 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/MARYANN1
+04 Jun 2018 11:45:30,707 44651 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:30,707 44651 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:30,935 44879 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127146-441227354-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:45  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:45  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:45  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:45  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:30,936 44880 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:30,936 44880 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/MARYANN5
+04 Jun 2018 11:45:30,936 44880 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:30,936 44880 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:30,939 44883 [pool-2-thread-5] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed SANDBOX RICKBOX1
+04 Jun 2018 11:45:30,942 44886 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:30,943 44887 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/MARYANN8
+04 Jun 2018 11:45:30,943 44887 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:30,943 44887 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:32,215 46159 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127147-288360361-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:47  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:47  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:47  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:47  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:32,215 46159 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:32,215 46159 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/COBOL/ele/CAWDE15
+04 Jun 2018 11:45:32,215 46159 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:32,215 46159 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:33,542 47486 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127148-038760041-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:48  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:48  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:48  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:48  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:33,542 47486 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:33,542 47486 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/COBOL/ele/CAWDE22
+04 Jun 2018 11:45:33,543 47487 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:33,543 47487 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:33,884 47828 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127149-270465034-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:48  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:48  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:48  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:48  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:33,885 47829 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:33,885 47829 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/COBOL/ele/CAWDE31
+04 Jun 2018 11:45:33,885 47829 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:33,885 47829 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:33,918 47862 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127149-164640929-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:48  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:48  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:48  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:48  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:33,919 47863 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:33,919 47863 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/COBOL/ele/MARBLES1
+04 Jun 2018 11:45:33,919 47863 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:33,919 47863 [pool-2-thread-5] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:33,924 47868 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 500 (200 expected)
+[{
+  "returnCode" : "0016",
+  "reasonCode" : "0000",
+  "reports" : null,
+  "data" : null,
+  "messages" : "Too many entries: expected at most 1 (value #1 (42 chars) \"H?¶ry\u0000\u0000\u0000\b\u0000\u0000\u0000\u001E\u0001\u0000 R\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000?´ \u0000\u0000\u0000\u00008?\")\n at [Source: (StringReader); line: 2, column: 7]"
+}]
+04 Jun 2018 11:45:33,925 47869 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:33,925 47869 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/SANDBOX/ele/RICKBOX4
+04 Jun 2018 11:45:33,925 47869 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:33,925 47869 [pool-2-thread-4] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:34,698 48642 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127149-090417695-APIMSGS"
+  },
+  "data" : {
+    "<Type SiteId=\"\"0\"\" EnvName=\"\"DEV\"\" SysName=\"\"FINANCE\"\" TypeName=\"\"COBOL\"\" TypeNumId=\"\"06\"\" StgName=\"\"UNITTEST\"\" StgId=\"\"1\"\" StgNum=\"\"1\"\" StgSeqNum=\"\"1\"\" FileExt=\"\"\"\" DataFormat=\"\"T\"\" HfsDelimiter=\"\"NL\"\" SrcLng=\"\"00080\"\" />\u0000µZø\u0000\u0000\u0000\u0000?µSÈ?´ \u0000\u0000\u0000\u0000(\u0000TABULAR\u0000=\"\"EN_US\"\" TimeZone=\"\"GMT-?´ \u0000\u0000\u0000\u00008?µXà?µ;??´+È\"\"ISO?µX?" : "\u0000\u0000\u0000\u001EPage?µX¹\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u001E\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+  },
+  "messages" : [ "11:45:49  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:49  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:49  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:49  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:34,699 48643 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:34,699 48643 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/SANDBOX/ele/THOMAS
+04 Jun 2018 11:45:34,699 48643 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:34,699 48643 [pool-2-thread-2] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:35,846 49790 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127150-081640408-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:50  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:50  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:50  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:50  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:35,846 49790 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:35,846 49790 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/SANDBOX/ele/TROY
+04 Jun 2018 11:45:35,846 49790 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:35,846 49790 [pool-2-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:36,988 50932 [pool-2-thread-3] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed COBOL CAWDE31
+04 Jun 2018 11:45:36,997 50941 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:36,997 50941 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/THOMAS/type/CBL/ele/THOMAS1
+04 Jun 2018 11:45:36,997 50941 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:36,998 50942 [pool-2-thread-3] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:37,111 51055 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127152-875374455-APIMSGS"
+  },
+  "data" : [ ],
+  "messages" : [ "11:45:51  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:51  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:52  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:52  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:37,380 51324 [pool-2-thread-4] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed SANDBOX RICKBOX4
+04 Jun 2018 11:45:38,045 51989 [pool-2-thread-2] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed SANDBOX THOMAS
+04 Jun 2018 11:45:39,150 53094 [pool-2-thread-1] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed SANDBOX TROY
+04 Jun 2018 11:45:39,663 53607 [pool-2-thread-3] DEBUG com.castsoftware.endevor.tasks.ExtractTask  - Completed CBL THOMAS1
+04 Jun 2018 11:45:40,484 54428 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 19.011 s
+04 Jun 2018 11:45:40,485 54429 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 28
+04 Jun 2018 11:45:40,485 54429 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+04 Jun 2018 11:45:40,485 54429 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+04 Jun 2018 11:45:40,485 54429 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 19
+04 Jun 2018 11:45:40,486 54430 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+04 Jun 2018 11:45:40,486 54430 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Trying the 1 non-extracted once more...
+04 Jun 2018 11:45:40,487 54431 [pool-3-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Url: http://141.202.36.6:47401/EndevorService/rest
+04 Jun 2018 11:45:40,488 54432 [pool-3-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Path: ENDEVOR/env/DEV/stgnum/1/sys/FINANCE/subsys/ACCTREC/type/CBL/ele/MARYANN5
+04 Jun 2018 11:45:40,488 54432 [pool-3-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Parameters: noSignout=yes
+04 Jun 2018 11:45:40,488 54432 [pool-3-thread-1] DEBUG com.castsoftware.endevor.RestUtil  - Media Type: application/octet-stream
+04 Jun 2018 11:45:41,946 55890 [pool-3-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+[{
+  "returnCode" : "0012",
+  "reasonCode" : "0000",
+  "reports" : {
+    "APIMSGS" : "http://141.202.36.6:47401/endevor/reports/1528127157-333348736-APIMSGS"
+  },
+  "data" : [ {
+    "<Type SiteId=\"\"0\"\" EnvName=\"\"DEV\"\" SysName=\"\"FINANCE\"\" TypeName=\"\"CBL\"\" TypeNumId=\"\"02\"\" StgName=\"\"UNITTEST\"\" StgId=\"\"1\"\" StgNum=\"\"1\"\" StgSeqNum=\"\"1\"\" FileExt=\"\"\"\" DataFormat=\"\"T\"\" HfsDelimiter=\"\"NL\"\" SrcLng=\"\"00080\"\" />\u0000È?´?Ø\u0000\u0000\u0000\u0000?´?Ø\u0000\u0000\u0000\u0000\u0000\u0000\u0000(\u0000\u0000\u0000\u0000?´?\u0000\u0000\u0000\u0000\u0000?´" : "?\u0000\u0000\u0000\u0000?´"
+  }, {
+    "<Type SiteId=\"\"0\"\" EnvName=\"\"DEV\"\" SysName=\"\"FINANCE\"\" TypeName=\"\"CBL\"\" TypeNumId=\"\"02\"\" StgName=\"\"UNITTEST\"\" StgId=\"\"1\"\" StgNum=\"\"1\"\" StgSeqNum=\"\"1\"\" FileExt=\"\"\"\" DataFormat=\"\"T\"\" HfsDelimiter=\"\"NL\"\" SrcLng=\"\"00080\"\" />\u0000È?´?Ø\u0000\u0000\u0000\u0000?´?Ø\u0000\u0000\u0000\u0000\u0000\u0000\u0000(\u0000\u0000\u0000\u0000?´?\u0000\u0000\u0000\u0000\u0000?´" : "??´ \u0000\u0000\u0000\u0000\u0018=èì >¼¹0>¼³0\u0000\u0000\u0000\u0000?´ \u0000\u0000\u0000\u00008?µ?è?´\"\"P?µ©Ð0552?´\t\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u001Euest?"
+  } ],
+  "messages" : [ "11:45:57  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT BASE LIBRARY                                              ", "11:45:57  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "11:45:57  C1G0030E  UNABLE TO VERIFY FOOTPRINT FOR ELEMENT IN THE ELEMENT DELTA LIBRARY                                             ", "11:45:57  C1G0014E  DATA SET/FILE NOT FOUND                                                                                         ", "C1E0146I" ]
+}]
+04 Jun 2018 11:45:42,501 56445 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 21.028 s
+04 Jun 2018 11:45:42,501 56445 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 1
+04 Jun 2018 11:45:42,501 56445 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+04 Jun 2018 11:45:42,501 56445 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+04 Jun 2018 11:45:42,501 56445 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 0
+04 Jun 2018 11:45:42,501 56445 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.castsoftware.endevor.client.controllers.RawQueryController">
+   <children>
+      <GridPane AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="tfPath" promptText="Path" GridPane.columnIndex="1" />
+            <TextField fx:id="tfQueryParameters" promptText="Query Parameters (key1=value1&amp;key2=value2&amp;etc.)" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ComboBox fx:id="cbMediaType" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#onQueryAction" text="Query" GridPane.columnIndex="2" GridPane.halignment="CENTER" />
+            <TextArea fx:id="taResults" prefHeight="450.0" prefWidth="800.0" GridPane.columnSpan="3" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets top="5.0" />
+               </GridPane.margin>
+            </TextArea>
+            <Label text="Path: " GridPane.halignment="RIGHT" />
+            <Label text="Parameters: " GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+            <Label text="Media Type: " GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

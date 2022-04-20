@@ -1,0 +1,466 @@
+0    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+7    [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+9    [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+3971 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+3975 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+3975 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+3976 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+3976 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+3977 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+4983 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.00
+5985 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.00
+6986 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.00
+7986 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.00
+9000 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.10
+10002 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.17
+11002 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.17
+12004 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.21
+13023 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.21
+14024 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.31
+15025 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.34
+16026 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.38
+17026 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.38
+18027 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.38
+19028 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.38
+19062 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+19608 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+20029 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.55
+21030 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.55
+22030 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.55
+23031 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.55
+23111 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+23241 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+23363 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+23377 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+23412 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+24031 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.72
+25031 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.72
+26032 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.72
+27032 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.72
+27179 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+28033 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.76
+28089 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+29033 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.90
+30034 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.90
+31035 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.90
+32036 [main] INFO  com.castsoftware.endevor.client.MainApp  - 0.93
+32982 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 29.012 s
+32983 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 29
+32983 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+32984 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+32984 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 20
+32985 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+32985 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Trying the 0 non-extracted once more...
+33036 [main] INFO  com.castsoftware.endevor.client.MainApp  - 1.00
+33036 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+33036 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+0    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+21   [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+23   [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+23   [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+23   [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+24   [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+3768 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+3774 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+3774 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+3774 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+3775 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+3775 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+7795 [main] INFO  com.castsoftware.endevor.client.MainApp  - 1 / 29
+8808 [main] INFO  com.castsoftware.endevor.client.MainApp  - 5 / 29
+11811 [main] INFO  com.castsoftware.endevor.client.MainApp  - 6 / 29
+12812 [main] INFO  com.castsoftware.endevor.client.MainApp  - 9 / 29
+13813 [main] INFO  com.castsoftware.endevor.client.MainApp  - 10 / 29
+14814 [main] INFO  com.castsoftware.endevor.client.MainApp  - 11 / 29
+15815 [main] INFO  com.castsoftware.endevor.client.MainApp  - 12 / 29
+16367 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+16816 [main] INFO  com.castsoftware.endevor.client.MainApp  - 15 / 29
+17341 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+17816 [main] INFO  com.castsoftware.endevor.client.MainApp  - 16 / 29
+18087 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+18817 [main] INFO  com.castsoftware.endevor.client.MainApp  - 17 / 29
+19236 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+19617 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+19818 [main] INFO  com.castsoftware.endevor.client.MainApp  - 19 / 29
+20197 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+20632 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+20818 [main] INFO  com.castsoftware.endevor.client.MainApp  - 21 / 29
+21472 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+21818 [main] INFO  com.castsoftware.endevor.client.MainApp  - 22 / 29
+23215 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+23819 [main] INFO  com.castsoftware.endevor.client.MainApp  - 25 / 29
+24819 [main] INFO  com.castsoftware.endevor.client.MainApp  - 27 / 29
+25820 [main] INFO  com.castsoftware.endevor.client.MainApp  - 29 / 29
+25820 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+25820 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+0    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+8    [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+4818 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+4822 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+4822 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+4823 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+4823 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+4823 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+10831 [main] INFO  com.castsoftware.endevor.client.MainApp  - 5 / 29
+15834 [main] INFO  com.castsoftware.endevor.client.MainApp  - 6 / 29
+16835 [main] INFO  com.castsoftware.endevor.client.MainApp  - 10 / 29
+21838 [main] INFO  com.castsoftware.endevor.client.MainApp  - 12 / 29
+22210 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+22838 [main] INFO  com.castsoftware.endevor.client.MainApp  - 14 / 29
+23839 [main] INFO  com.castsoftware.endevor.client.MainApp  - 15 / 29
+26289 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+26840 [main] INFO  com.castsoftware.endevor.client.MainApp  - 16 / 29
+27111 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+27841 [main] INFO  com.castsoftware.endevor.client.MainApp  - 17 / 29
+28031 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+28416 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+28842 [main] INFO  com.castsoftware.endevor.client.MainApp  - 19 / 29
+30003 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+30843 [main] INFO  com.castsoftware.endevor.client.MainApp  - 20 / 29
+31885 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+32693 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+32843 [main] INFO  com.castsoftware.endevor.client.MainApp  - 22 / 29
+33703 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+33844 [main] INFO  com.castsoftware.endevor.client.MainApp  - 23 / 29
+34845 [main] INFO  com.castsoftware.endevor.client.MainApp  - 25 / 29
+36846 [main] INFO  com.castsoftware.endevor.client.MainApp  - 27 / 29
+37832 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 33.013 s
+37833 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 29
+37833 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+37834 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+37834 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 20
+37835 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+37836 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Trying the 0 non-extracted once more...
+37853 [main] INFO  com.castsoftware.endevor.client.MainApp  - 29 / 29
+37853 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+37853 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+38067 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shut down
+0    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+10   [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+3746 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+3752 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+3752 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+3752 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+3753 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+3753 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+9763 [main] INFO  com.castsoftware.endevor.client.MainApp  - 5 / 29
+13766 [main] INFO  com.castsoftware.endevor.client.MainApp  - 6 / 29
+14766 [main] INFO  com.castsoftware.endevor.client.MainApp  - 7 / 29
+15767 [main] INFO  com.castsoftware.endevor.client.MainApp  - 10 / 29
+18768 [main] INFO  com.castsoftware.endevor.client.MainApp  - 11 / 29
+19770 [main] INFO  com.castsoftware.endevor.client.MainApp  - 13 / 29
+20271 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+20770 [main] INFO  com.castsoftware.endevor.client.MainApp  - 15 / 29
+22140 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+22771 [main] INFO  com.castsoftware.endevor.client.MainApp  - 16 / 29
+22886 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+23752 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+23772 [main] INFO  com.castsoftware.endevor.client.MainApp  - 18 / 29
+24090 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+24356 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+24772 [main] INFO  com.castsoftware.endevor.client.MainApp  - 20 / 29
+25940 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+26773 [main] INFO  com.castsoftware.endevor.client.MainApp  - 21 / 29
+27566 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+27774 [main] INFO  com.castsoftware.endevor.client.MainApp  - 22 / 29
+29058 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+29783 [main] INFO  com.castsoftware.endevor.client.MainApp  - 25 / 29
+30783 [main] INFO  com.castsoftware.endevor.client.MainApp  - 26 / 29
+31784 [main] INFO  com.castsoftware.endevor.client.MainApp  - 27 / 29
+32761 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 29.014 s
+32761 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 29
+32762 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+32762 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+32763 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 20
+32763 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+32785 [main] INFO  com.castsoftware.endevor.client.MainApp  - 29 / 29
+32785 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+32785 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+32985 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shut down
+0    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+8    [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+12   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+4986 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+4994 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+4994 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+4994 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+4994 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+4997 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+4999 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+13023 [main] INFO  com.castsoftware.endevor.client.MainApp  - 3 / 29
+14024 [main] INFO  com.castsoftware.endevor.client.MainApp  - 5 / 29
+18029 [main] INFO  com.castsoftware.endevor.client.MainApp  - 6 / 29
+19029 [main] INFO  com.castsoftware.endevor.client.MainApp  - 10 / 29
+24030 [main] INFO  com.castsoftware.endevor.client.MainApp  - 11 / 29
+24677 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+25033 [main] INFO  com.castsoftware.endevor.client.MainApp  - 15 / 29
+28645 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+29036 [main] INFO  com.castsoftware.endevor.client.MainApp  - 16 / 29
+29192 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+29453 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+29923 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+30037 [main] INFO  com.castsoftware.endevor.client.MainApp  - 19 / 29
+30181 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 500 (200 expected)
+31037 [main] INFO  com.castsoftware.endevor.client.MainApp  - 20 / 29
+33566 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+34038 [main] INFO  com.castsoftware.endevor.client.MainApp  - 21 / 29
+34568 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+35038 [main] INFO  com.castsoftware.endevor.client.MainApp  - 22 / 29
+35544 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+36039 [main] INFO  com.castsoftware.endevor.client.MainApp  - 24 / 29
+37040 [main] INFO  com.castsoftware.endevor.client.MainApp  - 25 / 29
+41041 [main] INFO  com.castsoftware.endevor.client.MainApp  - 26 / 29
+42003 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 37.016 s
+42004 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 29
+42004 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+42005 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+42005 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 20
+42006 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+42007 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Trying the 1 non-extracted once more...
+42028 [pool-3-thread-1] ERROR com.castsoftware.endevor.RestUtil  - Failed to Connect
+javax.ws.rs.ProcessingException: URI is not absolute
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:287)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:229)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)
+	at com.castsoftware.endevor.RestUtil.query(RestUtil.java:73)
+	at com.castsoftware.endevor.RestUtil.retrieveElement(RestUtil.java:193)
+	at com.castsoftware.endevor.tasks.ExtractTask.call(ExtractTask.java:75)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:146)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.net.URI.toURL(URI.java:1088)
+	at org.glassfish.jersey.client.internal.HttpUrlConnector._apply(HttpUrlConnector.java:335)
+	at org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:282)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)
+	... 19 more
+42034 [pool-3-thread-1] ERROR com.castsoftware.endevor.tasks.ExtractTask  - Extracting of element 'MARYANN5' (Type: CBL) failed
+java.lang.NullPointerException
+	at com.castsoftware.endevor.tasks.ExtractTask.call(ExtractTask.java:78)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:146)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+42041 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+42041 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+42245 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shut down
+0    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+22   [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+28   [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+28   [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+29   [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+29   [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+29   [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+29   [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+29   [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+29   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+30   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+30   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+30   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+30   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+3541 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+3548 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+3548 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+3548 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+3548 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+3548 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+3549 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+9570 [main] INFO  com.castsoftware.endevor.client.MainApp  - 2 / 29
+10571 [main] INFO  com.castsoftware.endevor.client.MainApp  - 5 / 29
+13583 [main] INFO  com.castsoftware.endevor.client.MainApp  - 8 / 29
+14583 [main] INFO  com.castsoftware.endevor.client.MainApp  - 10 / 29
+17587 [main] INFO  com.castsoftware.endevor.client.MainApp  - 11 / 29
+17987 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+18589 [main] INFO  com.castsoftware.endevor.client.MainApp  - 15 / 29
+20719 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+21589 [main] INFO  com.castsoftware.endevor.client.MainApp  - 16 / 29
+21736 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+21794 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+22024 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+22063 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+22590 [main] INFO  com.castsoftware.endevor.client.MainApp  - 20 / 29
+25057 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+25591 [main] INFO  com.castsoftware.endevor.client.MainApp  - 21 / 29
+26592 [main] INFO  com.castsoftware.endevor.client.MainApp  - 22 / 29
+26593 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+27009 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 500 (200 expected)
+27592 [main] INFO  com.castsoftware.endevor.client.MainApp  - 25 / 29
+28593 [main] INFO  com.castsoftware.endevor.client.MainApp  - 26 / 29
+30553 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 27.013 s
+30554 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 29
+30555 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+30555 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+30556 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 20
+30556 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+30557 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Trying the 1 non-extracted once more...
+30578 [pool-3-thread-1] ERROR com.castsoftware.endevor.RestUtil  - Failed to Connect
+javax.ws.rs.ProcessingException: URI is not absolute
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:287)
+	at org.glassfish.jersey.client.JerseyInvocation.lambda$invoke$0(JerseyInvocation.java:753)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:316)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:298)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:229)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:414)
+	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:752)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:419)
+	at org.glassfish.jersey.client.JerseyInvocation$Builder.get(JerseyInvocation.java:319)
+	at com.castsoftware.endevor.RestUtil.query(RestUtil.java:73)
+	at com.castsoftware.endevor.RestUtil.retrieveElement(RestUtil.java:193)
+	at com.castsoftware.endevor.tasks.ExtractTask.call(ExtractTask.java:75)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:148)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.net.URI.toURL(URI.java:1088)
+	at org.glassfish.jersey.client.internal.HttpUrlConnector._apply(HttpUrlConnector.java:335)
+	at org.glassfish.jersey.client.internal.HttpUrlConnector.apply(HttpUrlConnector.java:282)
+	at org.glassfish.jersey.client.ClientRuntime.invoke(ClientRuntime.java:278)
+	... 19 more
+30581 [pool-3-thread-1] ERROR com.castsoftware.endevor.tasks.ExtractTask  - Extracting of element 'MARBLES1' (Type: COBOL) failed
+java.lang.NullPointerException
+	at com.castsoftware.endevor.tasks.ExtractTask.call(ExtractTask.java:99)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:148)
+	at com.castsoftware.endevor.tasks.ExtractTask$TaskCallable.call(ExtractTask.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+30595 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+30595 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+30797 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shut down
+1    [main] INFO  com.castsoftware.endevor.client.MainApp  - Log4j (Batch) Initialized
+11   [main] INFO  com.castsoftware.endevor.client.MainApp  - Parameters:
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -url: http://141.202.36.6:47401/EndevorService/rest
+13   [main] INFO  com.castsoftware.endevor.client.MainApp  - -login: GODJU02
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -password: **********
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -instance: ENDEVOR
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -env: DEV
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -stage: 1
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - -folder: C:/Users/jgd/Documents/CA-Extract/
+14   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+15   [main] INFO  com.castsoftware.endevor.client.MainApp  - -system: FINANCE
+15   [main] INFO  com.castsoftware.endevor.client.MainApp  - -sbs: *
+15   [main] INFO  com.castsoftware.endevor.client.MainApp  - -type: *
+15   [main] INFO  com.castsoftware.endevor.client.MainApp  - 
+4920 [main] INFO  com.castsoftware.endevor.client.MainApp  - Content to be extracted:
+4929 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBCOPY : 4
+4931 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - COBOL : 11
+4931 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - JAVA : 1
+4931 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - SANDBOX : 5
+4931 [main] INFO  com.castsoftware.endevor.client.MainApp  -  - CBL : 8
+4932 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extracting files...
+8955 [main] INFO  com.castsoftware.endevor.client.MainApp  - 1 / 29
+9955 [main] INFO  com.castsoftware.endevor.client.MainApp  - 5 / 29
+12956 [main] INFO  com.castsoftware.endevor.client.MainApp  - 6 / 29
+13956 [main] INFO  com.castsoftware.endevor.client.MainApp  - 8 / 29
+14957 [main] INFO  com.castsoftware.endevor.client.MainApp  - 9 / 29
+15957 [main] INFO  com.castsoftware.endevor.client.MainApp  - 10 / 29
+16958 [main] INFO  com.castsoftware.endevor.client.MainApp  - 11 / 29
+17962 [main] INFO  com.castsoftware.endevor.client.MainApp  - 13 / 29
+18982 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CCIDRPT1' (Type: CBL) got a return code 400 (200 expected)
+19963 [main] INFO  com.castsoftware.endevor.client.MainApp  - 15 / 29
+20470 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FARCOB01' (Type: CBL) got a return code 400 (200 expected)
+20963 [main] INFO  com.castsoftware.endevor.client.MainApp  - 16 / 29
+21657 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN1' (Type: CBL) got a return code 400 (200 expected)
+21672 [pool-2-thread-4] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'FINARP01' (Type: CBL) got a return code 400 (200 expected)
+21964 [main] INFO  com.castsoftware.endevor.client.MainApp  - 18 / 29
+22820 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN5' (Type: CBL) got a return code 400 (200 expected)
+22954 [pool-2-thread-5] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARYANN8' (Type: CBL) got a return code 400 (200 expected)
+22965 [main] INFO  com.castsoftware.endevor.client.MainApp  - 20 / 29
+24711 [pool-2-thread-3] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE15' (Type: COBOL) got a return code 400 (200 expected)
+24966 [main] INFO  com.castsoftware.endevor.client.MainApp  - 21 / 29
+26294 [pool-2-thread-2] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'CAWDE22' (Type: COBOL) got a return code 400 (200 expected)
+26967 [main] INFO  com.castsoftware.endevor.client.MainApp  - 23 / 29
+27254 [pool-2-thread-1] WARN  com.castsoftware.endevor.tasks.ExtractTask  - Element 'MARBLES1' (Type: COBOL) got a return code 400 (200 expected)
+27967 [main] INFO  com.castsoftware.endevor.client.MainApp  - 25 / 29
+28968 [main] INFO  com.castsoftware.endevor.client.MainApp  - 26 / 29
+31969 [main] INFO  com.castsoftware.endevor.client.MainApp  - 28 / 29
+32932 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Duration: 28.012 s
+32933 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Success: 29
+32934 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Failed: 0
+32934 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Cancelled: 0
+32935 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Extracted: 20
+32936 [JavaFX Application Thread] INFO  com.castsoftware.endevor.tasks.Extractor  - Not Extracted: 9
+32969 [main] INFO  com.castsoftware.endevor.client.MainApp  - Extraction completed
+32969 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shutting down...
+33170 [main] INFO  com.castsoftware.endevor.client.MainApp  - Shut down
